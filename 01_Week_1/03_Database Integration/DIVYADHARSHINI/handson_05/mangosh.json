@@ -1,0 +1,162 @@
+{
+  "step68_updateMany": {
+    "acknowledged": true,
+    "insertedId": null,
+    "matchedCount": 2,
+    "modifiedCount": 2,
+    "upsertedCount": 0
+  },
+
+  "step68_find": [
+    {
+      "student_id": 5,
+      "course_code": "CS102",
+      "semester": "2022-EVEN",
+      "rating": 2,
+      "comments": "Needs improvement.",
+      "tags": ["slow"],
+      "submitted_at": "2022-12-02T09:00:00Z",
+      "attachments": [
+        {
+          "filename": "feedback.docx",
+          "size_kb": 90
+        }
+      ],
+      "needs_review": true
+    },
+    {
+      "student_id": 8,
+      "course_code": "CE101",
+      "semester": "2022-ODD",
+      "rating": 1,
+      "comments": "Very difficult.",
+      "tags": ["hard"],
+      "submitted_at": "2022-11-18T14:20:00Z",
+      "attachments": [
+        {
+          "filename": "notes.docx",
+          "size_kb": 120
+        }
+      ],
+      "needs_review": true
+    }
+  ],
+
+  "step69_updateMany": {
+    "acknowledged": true,
+    "matchedCount": 2,
+    "modifiedCount": 2
+  },
+
+  "step70_deleteMany": {
+    "acknowledged": true,
+    "deletedCount": 1
+  },
+
+  "step71_aggregation": [
+    {
+      "course_code": "EC101",
+      "avg_rating": 5,
+      "total_feedback": 1
+    },
+    {
+      "course_code": "CS101",
+      "avg_rating": 4.666666666666667,
+      "total_feedback": 3
+    },
+    {
+      "course_code": "CS103",
+      "avg_rating": 4,
+      "total_feedback": 1
+    },
+    {
+      "course_code": "CS104",
+      "avg_rating": 3,
+      "total_feedback": 1
+    },
+    {
+      "course_code": "CE101",
+      "avg_rating": 1,
+      "total_feedback": 1
+    }
+  ],
+
+  "step72_aggregation": [
+    {
+      "course_code": "EC101",
+      "average_rating": 5,
+      "total_feedback": 1
+    },
+    {
+      "course_code": "CS101",
+      "average_rating": 4.7,
+      "total_feedback": 3
+    },
+    {
+      "course_code": "CS103",
+      "average_rating": 4,
+      "total_feedback": 1
+    },
+    {
+      "course_code": "CS104",
+      "average_rating": 3,
+      "total_feedback": 1
+    },
+    {
+      "course_code": "CE101",
+      "average_rating": 1,
+      "total_feedback": 1
+    }
+  ],
+
+  "step73_tag_frequency": [
+    {
+      "tag": "challenging",
+      "count": 4
+    },
+    {
+      "tag": "good-examples",
+      "count": 2
+    },
+    {
+      "tag": "reviewed",
+      "count": 2
+    },
+    {
+      "tag": "hard",
+      "count": 1
+    },
+    {
+      "tag": "interactive",
+      "count": 1
+    },
+    {
+      "tag": "well-structured",
+      "count": 1
+    },
+    {
+      "tag": "slow",
+      "count": 1
+    },
+    {
+      "tag": "basic",
+      "count": 1
+    },
+    {
+      "tag": "average",
+      "count": 1
+    },
+    {
+      "tag": "interesting",
+      "count": 1
+    },
+    {
+      "tag": "labs",
+      "count": 1
+    }
+  ],
+
+  "step74_createIndex": {
+    "indexName": "course_code_1"
+  }
+}
