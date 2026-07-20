@@ -1,0 +1,25 @@
+header {
+  background: #0d0d0e;
+  color: white;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
