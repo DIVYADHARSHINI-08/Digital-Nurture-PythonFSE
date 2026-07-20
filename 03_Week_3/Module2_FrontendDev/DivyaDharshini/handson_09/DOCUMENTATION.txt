@@ -1,0 +1,115 @@
+<!--
+Accessibility Audit
+
+Initial Lighthouse Score:
+Performance: 100
+Accessibility: 97
+Best Practices: 100
+SEO: 90
+
+Issue Found:
+1. Heading elements were not in a sequentially descending order.
+
+Fixes Applied:
+1. Changed heading hierarchy from h1 → h2 → h3.
+2. Added a label for the search input.
+3. Removed duplicate app.js script.
+4. No <img> elements are present in the project, so no alt attributes were required.
+-->
+
+<!--
+Step 125:
+✓ Added label to the search input.
+✓ No profile form fields are present in the current project.
+-->
+
+<!--
+Step 126:
+✓ Corrected heading hierarchy.
+✓ Updated headings to follow:
+   h1 → Student Portal
+   h2 → Welcome to the Student Portal
+   h2 → Available Courses
+   h3 → Statistics values
+✓ Lighthouse heading hierarchy issue resolved.
+-->
+
+<!--
+Step 132:
+✓ Tested keyboard navigation using the Tab key.
+✓ All interactive elements are reachable.
+✓ Focus order is logical.
+✓ No focus traps or skipped elements found.
+-->
+
+<!--
+Step 133:
+✓ Checked colour contrast using Chrome DevTools.
+✓ Body text (#333333) on white background: 12.63:1 (Passes WCAG AA & AAA).
+✓ White text (#FFFFFF) on blue button background (#1E3A8A): 10.36:1 (Passes WCAG AA & AAA).
+✓ All normal text exceeds the minimum WCAG AA requirement of 4.5:1.
+-->
+
+<!--
+Step 134:
+✓ No failing colour combinations were found.
+
+Before:
+Text: #333333
+Background: #FFFFFF
+Contrast Ratio: 12.63:1 (Pass)
+
+Button:
+Text: #FFFFFF
+Background: #1E3A8A
+Contrast Ratio: 10.36:1 (Pass)
+
+After:
+No changes required because all colour combinations already
+meet the WCAG AA minimum contrast ratio of 4.5:1.
+-->
+
+<!--
+Step 135:
+- Tested in Google Chrome.
+- Tested in Microsoft Edge.
+- Firefox: Layout and styling consistent with Chrome.
+
+Observations:
+- Font rendering: No noticeable differences.
+- Flexbox layout: Consistent across tested browsers.
+- CSS Grid: Course cards displayed correctly.
+- Buttons and forms rendered correctly.
+- No browser-specific layout issues observed.
+-->
+
+<!--
+Step 136:
+CSS Feature Checked: Flexbox gap
+
+Browser Support (Can I Use):
+- Chrome 84+ : Supported
+- Edge 84+ : Supported
+- Firefox 63+ : Supported
+- Safari 14.1+ : Supported
+- Internet Explorer 11 : Not Supported
+
+Observation:
+The Student Portal uses Flexbox gap for spacing.
+The feature is supported in all modern browsers used for testing.
+Reference: https://caniuse.com/flexbox-gap
+-->
+
+<!--
+Step 137:
+- Added css-vars-ponyfill CDN to support CSS custom properties
+  in browsers without native CSS variable support.
+
+Polyfill:
+https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2
+
+Verification:
+- Project loaded successfully with the ponyfill.
+- Styles rendered correctly after calling cssVars().
+- No console errors observed.
+-->
