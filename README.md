@@ -8,7 +8,7 @@ This repository contains my hands-on exercises, projects, notes, and learning ma
 - Week 2 – Python Backend Frameworks
 - Week 3 – Frontend Development 
 - Week 4 – Frontend Development 
-- Week 5 – QA Concepts & Selenium *(Upcoming)*
+- Week 5 – QA Concepts & Selenium 
 - Week 6 – Git, CI/CD, DevOps & Docker *(Upcoming)*
 - Week 7 – Cloud & GenAI Fundamentals *(Upcoming)*
 
