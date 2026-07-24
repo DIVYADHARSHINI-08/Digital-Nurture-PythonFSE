@@ -9,11 +9,7 @@ This repository contains my hands-on exercises, projects, notes, and learning ma
 - Week 3 – Frontend Development 
 - Week 4 – Frontend Development 
 - Week 5 – QA Concepts & Selenium 
-<<<<<<< HEAD
-- Week 6 – Git, CI/CD, DevOps & Docker *(Upcoming)*
-=======
 - Week 6 – Git, CI/CD, DevOps & Docker 
->>>>>>> 1e5094e (Completed Hands-On 7: POM implementation with 6/6 tests passed)
 - Week 7 – Cloud & GenAI Fundamentals *(Upcoming)*
 
 ## Technologies
